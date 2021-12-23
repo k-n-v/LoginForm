@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+.app {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 400px;
+  flex-direction: column;
+  padding: 20px 20px;
+  border: 2px solid rgba(128, 128, 231, 0.6);
+  border-radius: 30px;
+}
+
+.app h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 32px;
+  color: rgba(128, 128, 128, .3);
+}
+
+.app input {
+ margin-top: 10px;
+ width: 250px;
+}
+
+
+.app button {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 2px solid;
+  background-color: rgba(51, 57, 222, .7);
+}
